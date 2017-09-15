@@ -13,10 +13,10 @@ import collections
 url = 'https://secure.payu.com.tr/order/irn.php'
 
 #Secret Key
-secret = '9g5^4+54@T8=!6_g+a9+'
+secret = 'SECRET_KEY'
 
 array = collections.OrderedDict()
-array['MERCHANT'] = 'PYKDMNSZ'
+array['MERCHANT'] = 'OPU_TEST'
 array['ORDER_REF'] = '39537992'
 array['ORDER_AMOUNT'] = '129.33'
 array['ORDER_CURRENCY'] = 'TRY'
